@@ -1,0 +1,34 @@
+{
+    
+    "development": {
+        "config_id": "development",
+        "secret_key":"SIST-GE-AVA",
+        "app_name": "sap-api",
+        "app_desc": "todo",
+        "url_db": "mongodb://localhost:27017/sap",
+        "json_indentation": 4,
+        "node_port": 3000,
+        "database": "sap"
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "sap",
+        "key_pass":"SIST-GE-AVA",
+        "url_db": "todo"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "secret_key":"SIST-GE-AVA",
+        "database": "sap",
+        "url_db": "todo"
+    },
+    "production": {
+        "config_id": "production",
+        "secret_key":"SIST-GE-AVA",
+        "node_port": 8080,
+        "database": "sap",
+        "url_db": "todo"
+
+    }
+}
